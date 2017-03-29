@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liujc.audiorecordlib.audio.wechatAudioRecorde.AudioRecordActivity" >
+
+    <ListView
+        android:id="@+id/voiceList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ebebeb"
+        android:divider="@null"
+        android:dividerHeight="10dp" >
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.liujc.audiorecordlib.audio.wechatAudioRecorde.view.AudioRecordButton
+            android:id="@+id/btnRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_recorder_normal"
+            android:gravity="center"
+            android:minHeight="0dp"
+            android:padding="5dp"
+            android:text="@string/btn_audio_recorder_normal"
+            android:textColor="#727272" >
+        </com.liujc.audiorecordlib.audio.wechatAudioRecorde.view.AudioRecordButton>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cccccc" />
+    </FrameLayout>
+
+</LinearLayout>
