@@ -1,1 +1,1 @@
-include ':app', ':audiorecordlib', ':videoplayerlib'
+include ':app', ':audiorecordlib', ':videoplayerlib', ':cameraviewlib'

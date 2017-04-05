@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 jumpToTarget(IjkPlayerActivity.class);
             }
         });
+        find(R.id.camera_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                jumpToTarget(CameraViewActivity.class);
+            }
+        });
     }
     protected <T extends View> T find(int id) {
         return (T) findViewById(id);

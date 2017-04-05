@@ -23,6 +23,7 @@
         <activity android:name=".IjkPlayerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name=".CameraViewActivity"/>
     </application>
 
 </manifest>

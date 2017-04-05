@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AudioVideoRecord.iml" filepath="$PROJECT_DIR$/AudioVideoRecord.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiorecordlib/audiorecordlib.iml" filepath="$PROJECT_DIR$/audiorecordlib/audiorecordlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cameraviewlib/cameraviewlib.iml" filepath="$PROJECT_DIR$/cameraviewlib/cameraviewlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/videoplayerlib/videoplayerlib.iml" filepath="$PROJECT_DIR$/videoplayerlib/videoplayerlib.iml" />
     </modules>
   </component>

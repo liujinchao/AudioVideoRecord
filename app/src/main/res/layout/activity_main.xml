@@ -35,4 +35,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ijk Video Player"/>
+    <Button
+        android:id="@+id/camera_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera View"/>
 </LinearLayout>
