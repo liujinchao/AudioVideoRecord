@@ -24,7 +24,7 @@ import android.widget.Toast;
  */
 public class CaptureButton extends View {
 
-    public final String TAG = "CaptureButtom";
+    public final String TAG = "CaptureButton";
 
     private Paint mPaint;
     private Context mContext;
